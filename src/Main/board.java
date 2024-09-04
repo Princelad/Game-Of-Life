@@ -6,7 +6,7 @@ import java.awt.*;
 public class board extends JPanel implements Runnable {
     public static final int WIDTH = 1280;
     public static final int HEIGHT = 720;
-    final int FPS = 20;
+    final int FPS = 10;
     Thread gameThread;
     playManager pm;
 
