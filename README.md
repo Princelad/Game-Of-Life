@@ -18,7 +18,7 @@ The Game of Life is a cellular automaton devised by mathematician John Conway. T
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/GameOfLife.git
+   git clone https://github.com/Princelad/GameOfLife.git
    ```
 
 2. **Navigate to the Project Directory**
