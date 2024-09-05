@@ -103,4 +103,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - Inspired by John Conway's Game of Life.
-- Developed as a personal project to explore game development in Java.
+- Developed as a personal project in Java.
