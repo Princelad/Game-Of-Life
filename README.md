@@ -1,5 +1,7 @@
 # Game of Life
 
+![Game of Life](screenshots/gameOfLife.gif)
+
 ## Overview
 
 The Game of Life is a cellular automaton devised by mathematician John Conway. This Java-based implementation simulates the Game of Life, where cells in a grid live, die, or reproduce based on simple rules. The project features interactive elements allowing users to modify the grid via mouse clicks and keyboard inputs.
