@@ -46,14 +46,14 @@ The Game of Life is a cellular automaton devised by mathematician John Conway. T
 ## Usage
 
 - **Mouse Controls**:
-    - **Left Click**: Set cell to alive.
-    - **Right Click**: Set cell to dead.
+    - **`Left Click`**: Set cell to alive.
+    - **`Right Click`**: Set cell to dead.
     - **Drag**: Continue modifying cells while dragging the mouse.
 
 - **Keyboard Controls**:
-    - **ESC**: Toggle pause/resume the simulation.
-    - **ENTER**: Resume the simulation after clearing the board.
-    - **R**: Clear the board and reset the simulation.
+    - **`ESC`**: Toggle pause/resume the simulation.
+    - **`ENTER`**: Resume the simulation after clearing the board.
+    - **`R`**: Clear the board and reset the simulation.
 
 ## Key Bindings
 
