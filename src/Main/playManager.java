@@ -25,20 +25,23 @@ public class playManager {
      */
     public int countNeighbours(int x, int y) {
         int count = 0;
-        try {
-            count += cell[x - 1][y - 1];
-            count += cell[x][y - 1];
-            count += cell[x + 1][y - 1];
-            count += cell[x - 1][y];
-            count += cell[x + 1][y];
-            count += cell[x - 1][y + 1];
-            count += cell[x][y + 1];
-            count += cell[x + 1][y + 1];
-        } catch (Exception ignored) {
-            // Ignore out-of-bounds exceptions
+        int cols = cell.length;  // Number of columns (64)
+        int rows = cell[0].length;  // Number of rows (36)
+
+        // Loop through the 8 neighbors
+        for (int i = -1; i <= 1; i++) {
+            for (int j = -1; j <= 1; j++) {
+                if (i == 0 && j == 0) {
+                    continue;  // Skip the cell itself
+                }
+                int newX = (x + i + cols) % cols;  // Wrap around horizontally
+                int newY = (y + j + rows) % rows;  // Wrap around vertically
+                count += cell[newX][newY];  // Add the state of the wrapped cell
+            }
         }
         return count;
     }
+
 
     /**
      * Updates the game state based on Game of Life rules.
